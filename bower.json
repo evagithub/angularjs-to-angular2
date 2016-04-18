@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-to-angular2",
+  "homepage": "https://github.com/evagithub/angularjs-to-angular2",
+  "authors": [
+    "evagithub <evadraganova@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.4",
+    "bootstrap": "^3.3.6",
+    "jquery-ui": "^1.11.4"
+  }
+}
