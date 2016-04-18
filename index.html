@@ -6,7 +6,9 @@
 
  
     <!-- Style sheets --> 
-   <link href="./app/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" /> 
+   <link href="./app/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />    
+   <link rel="stylesheet" href="./app/bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
+
 </head> 
 
  
@@ -23,15 +25,17 @@
      <div class="container" > 
          <div ng-controller="ExampleDirectivesCtrl as vm">
              <h4>{{vm.title}}</h4>
-             
-             
+              <input jq-spinner ng-model="vm.spinnerValue" />             
          </div>
        
      </div> 
  
  
-     <!-- Library Scripts --> 
+     <!-- Library Scripts -->       
+     <script src="./app/bower_components/jquery/dist/jquery.js"></script>
+     <script src="./app/bower_components/jquery-ui/jquery-ui.js"></script>
      <script src="./app/bower_components/angular/angular.js"></script> 
+     
     
      <!-- Application Script --> 
      <script src="./app/app.js"></script> 
@@ -42,7 +46,7 @@
      
      <!-- Controllers --> 
      <script src="./app/exampleDirectivesCtrl.js"></script> 
-     <script src="./app/jqueryui_directives/spinner/spinnerCtrl.js"></script> 
+     <script src="./app/jqueryui_directives/spinner/jqSpinner.js"></script> 
  </body> 
  
   </html> 
