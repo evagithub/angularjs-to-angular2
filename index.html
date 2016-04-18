@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+ <html> 
+<head lang="en"> 
+    <meta charset="UTF-8"> 
+    <title>Learn App</title> 
+
+ 
+    <!-- Style sheets --> 
+   <link href="./app/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" /> 
+</head> 
+
+ 
+ <body ng-app="learnApp"> 
+     <nav class="navbar navbar-default"> 
+         <div class="container-fluid"> 
+             <div class="navbar-header"> 
+                 <div class="navbar-brand">Learn </div>                 
+             </div> 
+         </div> 
+     </nav> 
+ 
+ 
+     <div class="container" > 
+         <div ng-controller="ExampleDirectivesCtrl as vm">
+             <h4>{{vm.title}}</h4>
+             
+             
+         </div>
+       
+     </div> 
+ 
+ 
+     <!-- Library Scripts --> 
+     <script src="./app/bower_components/angular/angular.js"></script> 
+    
+     <!-- Application Script --> 
+     <script src="./app/app.js"></script> 
+      
+     <!-- Domain Classes --> 
+    
+     <!-- Services --> 
+     
+     <!-- Controllers --> 
+     <script src="./app/exampleDirectivesCtrl.js"></script> 
+     <script src="./app/jqueryui_directives/spinner/spinnerCtrl.js"></script> 
+ </body> 
+ 
+  </html> 
